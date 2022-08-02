@@ -1,0 +1,75 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner-one{
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+    
+}
+.banner-one, h1, p, a{
+    color: white;
+}
+.left-part{
+    width: 50%;
+    padding: 30px;
+}
+.right-part{
+    width: 50%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.match-details{
+    display: flex;
+    margin: 50px;
+}
+.left-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.button-one, .button-two{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button-three{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.right-grid{
+    margin-left: 20px;
+}
+
+.detail{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.match{
+    box-shadow: 1px gray;
+}
+.match h4{
+    width: 80px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
