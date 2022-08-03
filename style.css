@@ -116,3 +116,38 @@ hr{
     justify-content: space-evenly;
     padding: 4%;
 }
+
+/* Media Query for Mobile Devices */
+
+@media screen and (max-width: 688px){
+    .banner-one{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-part p{
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+    .match-details{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-link{
+        background-color: white;
+        margin: auto;
+    }
+    .button-one, .button-two{
+        border: 1px solid rgba(128, 128, 128, 0.138);
+    }
+    .detail{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
