@@ -82,6 +82,10 @@ body{
     text-align: center;
     border-radius: 5px;
 }
+.icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
 .writing{
     margin-left: 20px;
     margin-bottom: 20px;
@@ -94,6 +98,9 @@ footer h1{
     display: flex;
     justify-content: center;
     padding: 4%;
+}
+hr{
+    width: 70%;
 }
 .contact{
     display: flex;
