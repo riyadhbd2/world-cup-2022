@@ -29,6 +29,10 @@ body{
     border-radius: 10px;
     padding: 10px;
 }
+.link-button:hover{
+    background-color: brown;
+    
+}
 
 .match-details{
     display: flex;
