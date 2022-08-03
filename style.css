@@ -31,7 +31,7 @@ body{
 }
 .link-button:hover{
     background-color: brown;
-    
+
 }
 
 .match-details{
@@ -50,13 +50,18 @@ body{
 }
 .button-one, .button-two{
     background-color: white;
+    margin: 10px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    color: black;
+    text-decoration: none;
 }
 .button-three{
+    text-decoration: none;
     background-color: red;
     color: white;
+    margin: 10px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
