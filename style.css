@@ -135,6 +135,8 @@ hr{
         text-align: center;
     }
     .left-link{
+        display: flex;
+        justify-content: center;
         background-color: white;
         margin: auto;
     }
@@ -145,9 +147,56 @@ hr{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .right-grid{
+        margin-right: 20%;
+    }
     .contact{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+}
+
+/* Responsive for tablet devices */
+
+@media screen and (min-width: 689px) and (max-width: 992px){
+    .match-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        background-color: white;
+        height: 100px;
+        margin: auto;
+    }
+    .button-one, .button-two{
+        border: 1px solid rgba(128, 128, 128, 0.131);
+        width: 150px;
+        height: 30px;
+    }
+    .button-three{
+        width: 150px;
+        height: 30px;
+    }
+    .detail{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .right-grid{
+        justify-content: center;
+    }
+    .detail::after{
+        content: "View All";
+        text-align: center;
+        background-color: red;
+        color: white;
+        padding: 20px;
+        margin: auto;
+        border-radius: 10px;
+        width: 100px;
+    }
+
 }
