@@ -158,7 +158,10 @@ hr{
         flex-direction: column;
         text-align: center;
     }
-
+    .contact::after{
+        font-family: FontAwesome;
+        content: "\f09a"   "\f16d"   "\f099";
+    }
 }
 
 /* Responsive for tablet devices */
